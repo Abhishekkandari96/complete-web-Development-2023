@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title> forms</title>
+</head>
+
+<body>
+<form>
+    <label for="adress">Address:</label>
+    <input type="text" name="address" id="adress" placeholder="address" size="30px" maxlength="100">
+<br>
+    <label for="postcode">Postal Code:</label>
+    <input type="text" name="postcode" id="postcode" placeholder="Postal code" size="30px" maxlength="100">
+    <br>
+    <label for="city">City:</label>
+    <input type="text" name="city" id="city" placeholder="City" size="30px" maxlength="100">
+
+    <br>
+    <p> Shipping methods</p>
+    <label for="shipping"> Choose days for shipment:</label>
+    <select name="shipping" id="shipping">
+        <option value="1 day shipping">1 day shipping</option>
+        <option value="2 day shipping">2 days shipping</option>
+        <option value="3 day shipping">3 days shipping</option>
+    </select>
+    <br>
+    <p>Payment methods</p>
+    <label >PayPal:<input type="radio" name="payment" value="paypal"></label>
+    <label >DebitCard:<input type="radio" name="payment" value="debit"></label>
+    <label >CreditCard:<input type="radio" name="payment" value="Credit"></label>
+    <br>
+    <p> Shipping Instructions</p>
+    <label for="instruction"> Instructions:</label>
+    <textarea id="instruction" name="instructions" ></textarea>
+    <br>
+   <label>Sign me up for email updates<input type="checkbox" name="emailupdates"></label>
+   <br>
+   <label>Securely save my payment details<input type="checkbox" name="savepayment" checked="checked"></label>
+   <br>
+    <input type="submit" value="Save and Submit">
+</form>
+</body>
+    
+</html>

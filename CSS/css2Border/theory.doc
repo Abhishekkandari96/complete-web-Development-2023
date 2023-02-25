@@ -1,0 +1,18 @@
+propertiese
+1-border width
+2-style
+  a-solid
+  b-dotted
+  c-dashed
+  d-double
+  e-groove
+  f-ridge
+  g-inset
+  h-outset
+  i-none 
+  j-mix
+3-color
+
+
+shorthend for border- means all propertiese of border in one line
+border=2px solid red;

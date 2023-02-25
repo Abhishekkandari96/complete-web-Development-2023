@@ -1,0 +1,110 @@
+<Html>
+    <head>
+        <title> form tag</title>
+    </head>
+    <body>
+        <!--see the image form more info-->
+        <img src="D:\complete web Development 2023\HTML\images\form.jpg"" alt="refrence" width="50%">
+
+        
+    
+        <!--building the form tag-->
+        <form action="" method="">
+            <fieldset>
+                <legend>JE Form</legend>
+            <!--propertiese
+            1-action-save in somewhere(using php etc)
+            2-method-how to save 
+            
+        
+        -->
+    </br>
+        <label>Name</label>
+        <input type="text" name="fname">
+
+        <label>Password</label>
+        <input type="password" name=""><br>
+
+
+        <label>Gender</label>
+        <input type="radio" name="fname"><label for="male">Male</label>
+        <input type="radio" name="fname"><label>Female</label>
+        <!--propertese
+            type
+            name=if it is empty both option can be selected , for toggle action give same name to both option
+            for=if we put this to a option it will directly select the option if we clik arond it
+            id=
+        
+        -->
+        
+    </br>
+        <label>Country</label> <select name="" size="3" multiple>
+            <!--
+                select tag to give options
+                Name=for backend
+                size=more then one value will see
+                multiple= to select multiple option
+                value = to store in backend
+                selected= for default selection
+            -->
+            <option value="IN">India</option>
+            <option>China</option>
+            <option>Pak</option>
+            <option>Nepal</option>
+            <option selected>MalDives</option>
+        </select>
+        <br>
+        <label>Cars</label><select>
+            <optgroup label="Toyota">
+                <Option>Innova</Option>
+                <Option>fortuner</Option>
+                <Option>Etios</Option>
+            </optgroup>
+            <optgroup label="renault">
+                <Option>quit</Option>
+                <Option>duster</Option>
+                <Option>capture</Option>
+            </optgroup>
+        </select>
+        <br>
+        <label>Cars</label><input list="cars">
+        <datalist id="cars">
+            <option value="Innova">
+                <option value="swift">
+                    <option value="duster">
+
+
+        </datalist>
+        <br>
+         <label>Upload Resume</label><input type="file" name="" accept="image/*"/>
+
+        <!--
+            accept= upload on;y accepted type of file
+            * means any type of file 
+            type
+            video
+            audio
+            image
+            file
+
+        -->
+        <br>
+
+        <!--buttons-->
+        <input type="submit" value="Save"/>
+        <br>
+        <input type="button" value="Click"/>
+        <br>
+        <input type="reset" />
+        <br>
+        <input type="image" src="D:\complete web Development 2023\HTML\images\form.jpg" />
+
+
+        
+
+            </fieldset>
+        </form>
+
+
+    </body>
+</Html>

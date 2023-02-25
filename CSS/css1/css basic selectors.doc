@@ -1,0 +1,51 @@
+# types of basic selector
+1-by tag name
+
+h1{// css apply on all h1 in html file
+color:red;
+font-size:15px;
+}
+table{
+//css apply on all table in html file
+}
+div{
+//css apply on all div tag in html file
+}
+
+2-by class
+can apply multiple eime in same page
+to apply on specific tag(ex=css on first h1 in html file)
+
+create class with .name
+naming convenntion of class name =.,-,_,camelcase
+.header{
+
+}
+<div class="header"></div>
+
+3- by id
+only useed one  in page
+
+#menu{
+
+}
+
+<ul id="menu">
+<li>text</li>
+</ul>
+
+4-descendant selector
+
+#header a{
+    this is applicable to only id header and having tag anchor
+
+}
+
+.list p{
+    on class list and in class only in paragraph tag
+
+}
+
+ul#menu li{
+
+}
