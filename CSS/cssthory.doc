@@ -6,3 +6,110 @@ why learn css
 -fast website development
 -image.png
 
+types of css
+1-inline css
+used to style a single elemnt in html document .
+ <p style="background: red;">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non eveniet, molestiae quibusdam est placeat saepe praesentium ut quidem nesciunt aspernatur. Cupiditate nemo veniam id, doloremque harum tenetur ullam voluptas dolore.
+    </p>
+2- internal css
+give ability to crete style for sheet in a single sheet
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            color: rgb(8, 7, 7);
+            background-color: blue;
+
+        }
+    </style>
+</head>
+
+3-external css file
+
+linking=inside head
+create link element
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+CSS second lecture
+note =inline style > color internal style > external
+
+css third lecture
+selectors= uses- used to select the html element we want to style
+catogories
+basic selectors-
+1-universal selectors=*
+applies to whole document
+*{
+    color: blue;
+}
+2-attrribute selector= element name{}
+
+h1{
+    color: blue;
+    font-size: larger;
+    text-shadow: 2px 2px 2px rgb(75, 9, 106);
+}
+
+3-class selector = select all the elemnt that have given a class attrribute.
+genral way-
+.first{
+color: yellow;
+background-color: chocolate;
+}
+specific way-
+
+h3.first{
+    color:deeppink;
+}
+
+4-id selector-
+#work{
+    color:pink;
+    background-color: yellow;
+}
+5-combinator selectors
+a-decendent selector
+.intro #work{
+    color: rgb(33, 26, 21);
+}
+.intro p{
+    color: rgb(221, 131, 67);
+}
+b-child combinator selector
+
+div > p{
+    color:blueviolet;
+}
+
+c-sibling combinator
+p ~ h2{ 
+    color: red;
+
+}
+d- adjecent sibling selector
+
+h2+ p{
+    background-color: blue;;
+}
+
+5- list selector
+
+
+inheritance in css
+inherited propertiese= propertiese of parent is inherited to child element in case of dagult condition
+
+
+
+
+

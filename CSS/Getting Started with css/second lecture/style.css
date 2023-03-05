@@ -1,0 +1,49 @@
+*{
+    color:red;
+}
+
+
+h1{
+    color: blue;
+    font-size: larger;
+    text-shadow: 2px 2px 2px rgb(75, 9, 106);
+}
+p{
+    color: chartreuse;
+    
+}
+.first{
+color: yellow;
+background-color: chocolate;
+}
+
+h3.first{
+    color:deeppink;
+}
+
+#work{
+    color:pink;
+    background-color: yellow;
+}
+
+.intro #work{
+    color: rgb(33, 26, 21);
+}
+.intro p{
+    color: rgb(221, 131, 67);
+}
+div > p{
+    color:blueviolet;
+}
+
+p ~ h2{ 
+    color: red;
+
+}
+
+h2+ p{
+    background-color: blue;;
+}
+
+
+
