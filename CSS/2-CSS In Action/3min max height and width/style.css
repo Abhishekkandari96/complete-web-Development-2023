@@ -1,0 +1,18 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+div#box>img{
+    width:100%;
+    height:auto;
+}
+#box{
+    max-width: 600px;
+    min-width:420px;
+    background-color: aquamarine;
+}
+#box2{
+   min-height: 200px;
+   max-height: auto;
+    background-color: rgb(163, 127, 255);
+}

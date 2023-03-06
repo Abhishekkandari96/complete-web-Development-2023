@@ -110,6 +110,44 @@ inheritance in css
 inherited propertiese= propertiese of parent is inherited to child element in case of dagult condition
 
 
+Module 2 
+topic 1
+box model and margin collapsing
+theory-css box model is the a box that wrap around every html element
+everything in css ia box
+the box is composed of four parts
+1-content- area contains real content
+-values are width and hwight
+-default condition value of parent(for width) text(height of text)
+2-padding
+used to genrate space around element content inside of any defined border
+- it is transparent but we can change its color by background property
 
+3-border
+
+4-margin
+used to create space around the elemenet
+Note margin collapsing property
+
+topic 2
+width and height of element
+-used to set width and height of the element
+-not include padding and border
+-only apply to content
+-default=auto
+-if height is not specify it will change according to content
+-for width=its default value depend on parent (in percentage it is wrt parent).
+type-veiw width(relarive to screen), pixel(overflow prob), percentage(relative to parent)
+-best way to assign height
+
+topic 3
+min/ mx height and width
+
+topic 4
+padding
+sortcut for initialise
+
+topic 4
+border
 
 

@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.first-name{
+    background-color: aquamarine;
+    color: blueviolet;
+    height:auto;
+    width: auto;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-right:80px;
+    padding-bottom:90px;
+
+}
+.second-name{
+    background-color: rgb(2, 34, 23);
+    color: rgb(109, 101, 117);
+    height:auto;
+    min-width:auto;
+    min-height:auto;
+    width:auto;
+   padding: 20px 30px ;
+}

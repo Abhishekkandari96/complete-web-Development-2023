@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    
+}
+.first-box{
+    color: aliceblue;
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    padding: 40px;
+    border: 30px solid blue;
+    margin: 30px;
+    
+}
+.second-box{
+    color: yellow;
+    background-color:green;
+    height: 200px;
+    width: 200px;
+    padding: 40px;
+    border: 30px solid blue;
+    margin: 30px;
+}
