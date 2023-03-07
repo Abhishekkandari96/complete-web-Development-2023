@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+#image{
+    margin: 20px;
+    width: 500px;
+    float: centre;
+    border: 10px solid black;
+
+    outline: 10px solid red;
+    outline-offset:5px;
+
+}
+#simplebox{
+    width: 500px;
+    float: left;
+    margin: 20px;
+    border: 10px solid black;
+
+    outline: 10px solid red;
+    outline: offset 5px;
+}

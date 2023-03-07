@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.first-name{
+    background-color: aquamarine;
+    color: blueviolet;
+    height: auto;;
+    width:auto;;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-right:80px;
+    padding-bottom:90px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left:30px;
+
+}
+.second-name{
+    background-color: rgb(2, 34, 23);
+    color: rgb(109, 101, 117);
+    height: auto;;
+    width:auto;;
+   padding: 50px ;
+   border-style: solid ;
+   border-width: 12px 30px 20px 59px;
+   border-color:red;
+   border-radius: 5px;
+   margin: 10px 30px 20px 30px ;
+   
+
+
+}

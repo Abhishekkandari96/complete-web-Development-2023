@@ -149,5 +149,22 @@ sortcut for initialise
 
 topic 4
 border
+shortcut
+border: width style color;
 
+topic 5
+margin
+shortcut- top right bottom left
 
+topic 6
+box sizing property'
+it define how the width and height are calculated
+types of box sizing property
+1-content box-default
+2-border box
+
+topic 6
+outline
+it is not the part of elemnts dimention
+we can set it inside or outside using the offset property
+outlines corner cannot be rounded
