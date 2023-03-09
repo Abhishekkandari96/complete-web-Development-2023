@@ -1,0 +1,13 @@
+div{
+    width:200px;
+    margin: 2px;
+    background: goldenrod;
+}
+#first{
+word-wrap: break-word;
+}
+#second{
+    overflow-wrap: break-word;
+    text-align: centre;
+
+}
