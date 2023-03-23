@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav footer{
+    position: fixed;
+    flex-shrink: 0;
+}
+section{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent{
+    display: flex;
+}
+nav{
+    position: fixed;
+}
+
+nav ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 2px;
+    width: 100%;
+
+}
+
+#logo{
+    width: 80vw;
+    height: 200px;
+    background-color: red;
+}
+
+.layer{
+    width:100%;
+    background-color: grey;
+    
+    padding: 10px 0px;
+
+    
+
+}
